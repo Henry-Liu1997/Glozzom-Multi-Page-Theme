@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/c5d39fa8cf.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Bootstrap Theme</title>
+  </head>
+
+  <body>
+    <!-- START HERE-->
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <div class="container text-uppercase">
+        <a class="navbar-brand" href="">Glozzom</a>
+        <button
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbar-content"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbar-content">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--SHOWCASE SLIDER-->
+    <section id="showcase" class="text-white">
+      <div id="showcaseSlider" class="carousel slide mt-5" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li
+            data-target="#showcaseSlider"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#showcaseSlider" data-slide-to="1"></li>
+          <li data-target="#showcaseSlider" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item slide-1 active">
+            <div class="carousel-caption text-right d-none d-sm-block mb-5">
+              <p class="display-3">Heading One</p>
+              <p class="lead">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+                deleniti delectus maiores illum assumenda reiciendis iste beatae
+                autem facere sint?
+              </p>
+              <button class="btn btn-danger">Sign Up Now</button>
+            </div>
+          </div>
+          <div class="carousel-item slide-2">
+            <div class="carousel-caption d-none d-sm-block mb-5">
+              <p class="display-3">Heading Two</p>
+              <p class="lead">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+                deleniti delectus maiores illum assumenda reiciendis iste beatae
+                autem facere sint?
+              </p>
+              <button class="btn btn-primary">Learn More</button>
+            </div>
+          </div>
+          <div class="carousel-item slide-3">
+            <div class="carousel-caption d-none d-sm-block mb-5 text-right">
+              <p class="display-3">Heading Three</p>
+              <p class="lead">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+                deleniti delectus maiores illum assumenda reiciendis iste beatae
+                autem facere sint?
+              </p>
+              <button class="btn btn-success">Learn More</button>
+            </div>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#showcaseSlider"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a
+          class="carousel-control-next"
+          data-slide="next"
+          href="#showcaseSlider"
+        >
+          <span class="carousel-control-next-icon"></span
+        ></a>
+      </div>
+    </section>
+
+    <!--HOME ICON SECTION-->
+    <section id="home-icons" class="py-5">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <i class="fas fa-cog fa-3x"></i>
+            <h4>Turning Gears</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+              iure voluptates tenetur, deserunt ex tempore.
+            </p>
+          </div>
+          <div class="col-sm-4">
+            <i class="fas fa-cloud fa-3x"></i>
+            <h4>Sending Data</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+              iure voluptates tenetur, deserunt ex tempore.
+            </p>
+          </div>
+          <div class="col-sm-4">
+            <i class="fas fa-cart-plus fa-3x"></i>
+            <h4>Making Monery</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+              iure voluptates tenetur, deserunt ex tempore.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--HOME HEADING SECTION-->
+    <section id="home-heading" class="text-white">
+      <div class="dark-overlay">
+        <div class="container text-center py-5">
+          <h2>Are You Ready To Get Started</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Voluptatibus alias ullam suscipit nisi, veritatis veniam temporibus
+            dignissimos dolorem similique id.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--INFO SECTION-->
+    <section id="home-info">
+      <div class="container py-3">
+        <div class="row">
+          <div class="col-md-6 align-self-center text-md-left text-center">
+            <h3>Lorem Ipsum</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus
+              alias non quisquam. Veritatis culpa animi, quos repudiandae
+              reiciendis atque iusto?
+            </p>
+            <button class="btn btn-outline-danger">Learn More</button>
+          </div>
+          <div class="col-md-6">
+            <img src="img/laptop.png" alt="laptop picture" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--VIDEO PLAY-->
+    <section id="home-video">
+      <div class="dark-overlay text-center text-white">
+        <!--Modal Trigger-->
+        <div class="container mt-5">
+          <a
+            href="#"
+            data-toggle="modal"
+            data-target="#videoModal"
+            data-theVideo="http://www.youtube.com/embed/loFtozxZG0s"
+            ><i class="fas fa-play fa-3x mb-2"></i
+          ></a>
+          <h2>See What We Do</h2>
+        </div>
+      </div>
+
+      <!--VIDEO MODAL-->
+      <div class="modal fade" id="videoModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-body">
+              <button type="button" class="close" data-dismiss="modal">
+                &times;
+              </button>
+              <div>
+                <iframe width="100%" height="350"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--PHOTO GALLERY-->
+    <section id="photoGallery">
+      <div class="container py-5 text-center">
+        <h2>Photo Gallery</h2>
+        <p class="text-muted">Check out our phoots</p>
+        <div class="row">
+          <div class="col-md-4 mb-2">
+            <a
+              href="https://source.unsplash.com/random/560x560"
+              data-toggle="lightbox"
+              data-height="560"
+              data-width="560"
+            >
+              <img
+                src="https://source.unsplash.com/random/560x560"
+                height="560px"
+                width="560px"
+                class="img-fluid"
+            /></a>
+          </div>
+          <div class="col-md-4 mb-2">
+            <a
+              href="https://source.unsplash.com/random/561x561"
+              data-toggle="lightbox"
+              data-height="561"
+              data-width="561"
+            >
+              <img
+                src="https://source.unsplash.com/random/561x561"
+                height="560px"
+                width="560px"
+                class="img-fluid"
+            /></a>
+          </div>
+          <div class="col-md-4 mb-2">
+            <a
+              href="https://source.unsplash.com/random/562x562"
+              data-toggle="lightbox"
+              data-height="562"
+              data-width="562"
+            >
+              <img
+                src="https://source.unsplash.com/random/562x562"
+                class="img-fluid"
+            /></a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 mb-2">
+            <a
+              href="https://source.unsplash.com/random/563x563"
+              data-toggle="lightbox"
+              data-height="563"
+              data-width="563"
+            >
+              <img
+                src="https://source.unsplash.com/random/563x563"
+                class="img-fluid"
+            /></a>
+          </div>
+          <div class="col-md-4 mb-2">
+            <a
+              href="https://source.unsplash.com/random/564x564"
+              data-toggle="lightbox"
+              data-height="564"
+              data-width="564"
+            >
+              <img
+                src="https://source.unsplash.com/random/564x564"
+                class="img-fluid"
+            /></a>
+          </div>
+          <div class="col-md-4 mb-2">
+            <a
+              href="https://source.unsplash.com/random/565x565"
+              data-toggle="lightbox"
+              data-height="565"
+              data-width="565"
+            >
+              <img
+                src="https://source.unsplash.com/random/565x565"
+                class="img-fluid"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--NEWSLETTER-->
+    <section id="newsletter" class="text-center bg-dark text-white py-5">
+      <div class="container">
+        <h2>Sign Up For Our Newsletter</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur
+          cupiditate voluptate, numquam dolores cumque fuga commodi odit
+          officiis necessitatibus aperiam.
+        </p>
+        <form>
+          <div class="row">
+            <div class="col-sm-4">
+              <input
+                type="text"
+                placeholder="Enter Name"
+                class="form-control"
+              />
+            </div>
+            <div class="col-sm-4">
+              <input
+                type="email"
+                placeholder="Enter Email"
+                class="form-control"
+              />
+            </div>
+            <div class="col-sm-4">
+              <button class="btn btn-primary btn-block">Submit</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!--FOOTER-->
+    <footer id="main-footer" class="text-center py-4">
+      <div class="container">
+        <p>Copyright &copy; <span id="year"></span> Glozzom</p>
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+
+    <script>
+      //Set the carousel interval
+      $(".carousel").carousel({
+        interval: 6000,
+      });
+      //Get the current year for the copyright
+
+      //FUNCTION TO GET AND AUTO PLAY YOUTUBE VIDEO FROM DATATAG
+      function autoPlayYouTubeModal() {
+        var trigger = $("body").find('[data-toggle="modal"]');
+        trigger.click(function () {
+          var theModal = $(this).data("target"),
+            videoSRC = $(this).attr("data-theVideo"),
+            videoSRCauto = videoSRC + "?autoplay=1";
+          $(theModal + " iframe").attr("src", videoSRCauto);
+          $(theModal + " button.close").click(function () {
+            $(theModal + " iframe").attr("src", videoSRC);
+          });
+        });
+      }
+      $(document).ready(function () {
+        autoPlayYouTubeModal();
+      });
+
+      //light box effect init
+      $(document).on("click", '[data-toggle="lightbox"]', function (event) {
+        event.preventDefault();
+        $(this).ekkoLightbox();
+      });
+
+      $("#year").text(new Date().getFullYear());
+    </script>
+  </body>
+</html>
